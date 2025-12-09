@@ -1,29 +1,28 @@
 {
-	"name": "routine",
-	"private": true,
-	"version": "0.0.1",
-	"type": "module",
-	"scripts": {
-		"dev": "vite dev",
-		"build": "vite build",
-		"preview": "vite preview",
-		"prepare": "svelte-kit sync || echo ''",
-		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
-		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
-	},
-	"devDependencies": {
-		"@sveltejs/adapter-auto": "^7.0.0",
-		"@sveltejs/adapter-static": "^3.0.10",
-		"@sveltejs/kit": "^2.48.5",
-		"@sveltejs/vite-plugin-svelte": "^6.2.1",
-		"@tailwindcss/vite": "^4.1.17",
-		"svelte": "^5.43.8",
-		"svelte-check": "^4.3.4",
-		"tailwindcss": "^4.1.17",
-		"typescript": "^5.9.3",
-		"vite": "^7.2.2"
-	},
-	"dependencies": {
-		"bits-ui": "^2.14.4"
-	}
+  "name": "routine_temp",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "daisyui": "^5.5.8",
+    "framer-motion": "^12.23.25",
+    "next": "^16.0.8",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.17",
+    "@types/node": "^24.10.2",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.1",
+    "eslint-config-next": "^16.0.8",
+    "tailwindcss": "^4.1.17",
+    "typescript": "^5.9.3"
+  }
 }
