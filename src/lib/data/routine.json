@@ -1,0 +1,13 @@
+{
+	"title": "Morning Routine",
+	"resetTime": "04:00",
+	"tasks": [
+		{ "id": "1", "label": "Wake up" },
+		{ "id": "2", "label": "Make bed" },
+		{ "id": "3", "label": "Meditate", "duration": "10 min" },
+		{ "id": "4", "label": "Exercise", "duration": "30 min" },
+		{ "id": "5", "label": "Shower" },
+		{ "id": "6", "label": "Breakfast" },
+		{ "id": "7", "label": "Review daily goals" }
+	]
+}
