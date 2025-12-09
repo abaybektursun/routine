@@ -3,17 +3,18 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "dev": "next dev",
+    "lint": "eslint",
+    "start": "next start"
   },
   "dependencies": {
     "daisyui": "^5.5.8",
     "framer-motion": "^12.23.25",
     "next": "^16.0.8",
     "react": "^19.2.1",
-    "react-dom": "^19.2.1"
+    "react-dom": "^19.2.1",
+    "sst": "3.17.25"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.17",
